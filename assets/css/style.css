@@ -20,15 +20,13 @@ font-family: 'Ysabeau', sans-serif;
 /* buttons */
 .btn1, .icon{
     background-color: var(--medium-blue) !important;
-    /* box-shadow: 0.08rem 0.08rem 0.2rem var(--black-color) !important */
 }
 .btn{
-   height: 6.5vh !important;
-   width: 10vw !important;
-   /* box-shadow: 0.08rem 0.05rem 0.1rem var(--blue-info) !important; */
+   height: 6vh !important;
+   width: 9vw !important;
 }
 .btn1:hover{
-    transform: scale(0.95);
+    transform: scale(0.93);
     transition: all 1s ease;
     cursor: pointer;
     color: white !important;
@@ -43,9 +41,8 @@ font-family: 'Ysabeau', sans-serif;
 
 /* navbar */
 .navbar{
-background-color: var(--primary-color);
+background: var(--primary-color);
 position: relative;
-/* z-index: -2; */
 opacity: 0.9;
 padding: 0 20vw;
 }
@@ -67,20 +64,19 @@ padding: 0 20vw;
 }
 #banner .container-fluid::before{
     content: "";
-    width: 38vw;
-    height: 79.8vh;
+    width: 50%;
+    height: 80%;
     background-color: var(--black-color);
     position: absolute;
     z-index: 5;
     opacity: 0.4;
-    top: +12.9%;
     left: +21.2%;
 
 }
 
 #banner .container-fluid .cont{
     /* border: 5px solid red !important; */
-    margin-left: 23%;
+    /* margin-left: 23%; */
     padding-top: 14%;
     text-shadow: 0.2rem 0.1rem 0.5rem var(--black-color);
     
@@ -137,20 +133,6 @@ padding: 0 20vw;
     background-attachment: fixed;
     text-shadow: 0.05rem 0.05rem 0.1rem var(--deep-blue);
 }
-
-/* #services::after{
-    content: "";
-    background: url(/assets/images/pexels-stillworks-imagery-176860.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 67.48vh;
-    width: 100vw;
-    top: +0%;
-    z-index: -2;
-    opacity: 0.5;
-    position: absolute;
-} */
 #services::after{
     content: "";
     height: 48vh;
@@ -162,13 +144,6 @@ padding: 0 20vw;
     position: absolute;
     background-color: var(--black-color);
 }
-
-#services .container .cont-2 h3{
-    /* color: blueviolet !important; */
-    /* background-color: var(--off-black); */
-}
-
-
 /* client */
 #client{
     background: var(--medium-blue);
@@ -192,28 +167,28 @@ padding: 0 20vw;
 @media only screen and (max-width: 480px) {
 
     /* utilities */
-/* buttons */
-.btn1, .icon{
-    background-color: var(--medium-blue) !important;
-    /* box-shadow: 0.08rem 0.08rem 0.2rem var(--black-color) !important */
-}
-.btn{
-   height: 5vh !important;
-   width: 26vw !important;
-   /* box-shadow: 0.08rem 0.05rem 0.1rem var(--blue-info) !important; */
-}
-.btn1:hover{
-    transform: scale(0.95);
-    transition: all 1s ease;
-    cursor: pointer;
-    color: white !important;
-} 
-.btn-2:hover{
-    transform: scale(0.95);
-    transition: all 1s ease;
-    cursor: pointer;
-    color: white !important;
-} 
+    /* buttons */
+    .btn1, .icon{
+        background-color: var(--medium-blue) !important;
+        /* box-shadow: 0.08rem 0.08rem 0.2rem var(--black-color) !important */
+    }
+    .btn{
+    height: 5vh !important;
+    width: 26vw !important;
+    /* box-shadow: 0.08rem 0.05rem 0.1rem var(--blue-info) !important; */
+    }
+    .btn1:hover{
+        transform: scale(0.95);
+        transition: all 1s ease;
+        cursor: pointer;
+        color: white !important;
+    } 
+    .btn-2:hover{
+        transform: scale(0.95);
+        transition: all 1s ease;
+        cursor: pointer;
+        color: white !important;
+    } 
 
     /* banner */
     #banner{
@@ -250,80 +225,77 @@ padding: 0 20vw;
         color: var(--green-color);
     }
 
-    /* about */
-#welcome{
-    background-color: var(--medium-blue);
-    padding: 0 2vw;
-}
+        /* about */
+    #welcome{
+        background-color: var(--medium-blue);
+        padding: 0 2vw;
+    }
 
-#about{
-    background-color: var(--primary-color);
-    /* position: relative; */
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-#about .row{
-    position: relative;
-}
-#about .head::after{
-    content: "" ;
-    width: 24% ;
-    border: 1px solid var(--off-black) ;
-    position: absolute;
-    top: 1.4rem;
-    right: 5%;
-}
-#about .head::before{
-    content: "";
-    width: 24%;
-    border: 1px solid var(--off-black);
-    position: absolute;
-    top: 1.4rem;
-    right: 73%;
-}
-#about .container{
-    width: 100vw;
-    padding-left: 2.4rem;
-    margin: auto 0;
-    /* padding-right: 1.5rem; */
-    
-}
-#about .tc{
-    display:flex;
-    flex-direction: column;
-}
-#about .cont-sth{
-    display: flex;
-    align-items: start;
-    margin-left: 0rem !important;
-}
-#about img{
-    height: 19.5vh;
-    width: 45vw !important;
-    margin-left: 1vw;
-    padding-top: 0 !important;
+    #about{
+        background-color: var(--primary-color);
+        /* position: relative; */
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #about .row{
+        position: relative;
+    }
+    #about .head::after{
+        content: "" ;
+        width: 24% ;
+        border: 1px solid var(--off-black) ;
+        position: absolute;
+        top: 1.4rem;
+        right: 5%;
+    }
+    #about .head::before{
+        content: "";
+        width: 24%;
+        border: 1px solid var(--off-black);
+        position: absolute;
+        top: 1.4rem;
+        right: 73%;
+    }
+    #about .container{
+        width: 100vw;
+        padding-left: 2.4rem;
+        margin: auto 0;
+        /* padding-right: 1.5rem; */
+        
+    }
+    #about .tc{
+        display:flex;
+        flex-direction: column;
+    }
+    #about .cont-sth{
+        display: flex;
+        align-items: start;
+        margin-left: 0rem !important;
+    }
+    #about img{
+        height: 19.5vh;
+        width: 45vw !important;
+        margin-left: 1vw;
+        padding-top: 0 !important;
 
-    /* border: 2px solid red; */
- }
- #about .text-cont{
-    display: flex;
-    flex-direction: column;
-    padding-left: 3rem;
-    padding-right: 0 !important;
-    margin-right: 0;
-    padding-top: 0 !important;
-    width: 55vw;
-    height: 25vh ;
-    /* border: 2px solid red; */
- }
- #about p{
-    /* border: 2px solid red; */
-    padding-right: 0 !important;
- }
- #about button{
-    /* border: 2px solid red; */
- }
+        /* border: 2px solid red; */
+    }
+    #about .text-cont{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 0 !important;
+        margin-right: 0;
+        padding-top: 0 !important;
+        width: 55vw;
+        height: 25vh ;
+        /* border: 2px solid red; */
+    }
+    #about p{
+        /* border: 2px solid red; */
+        padding-right: 0 !important;
+    }
 
     /* services */
     #services{
